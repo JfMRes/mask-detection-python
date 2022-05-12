@@ -7,7 +7,7 @@ prediction.setModelPath(modelo)
 prediction.setJsonPath("imagenes\json\model_class.json")
 prediction.loadModel(num_objects=2)
 def inicia():
-    foto=r"estampado.webp"
+    foto=r"ruta"
 
     predictions, probabilities = prediction.predictImage(foto, result_count=2)
 
